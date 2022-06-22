@@ -1,0 +1,26 @@
+ul{
+    background-color: #000;
+    color: #eeee;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin: auto;
+    justify-content: end;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    padding: 18px 30px;
+    margin: auto;
+    text-decoration: none;
+    color: #eeee;
+}
+
+li a:hover{
+    background-color: #eeee;
+    color: black;
+}
